@@ -20,7 +20,7 @@ xcombine_vol_data slice_list filename input_topo_dir input_file_dir output_dir h
 ```
 One example would be:
 ```
-./bin/xcombine_vol_data all vs ./DATABASES_MPI ./DATABASES_MPI output_dir 0 1
+./bin/xcombine_vol_data all vs ./DATABASES_MPI/ ./DATABASES_MPI/ output_dir 0 1
 ```
 
 Notice if you set the resolution to high (1), the output file size would be very large. Please start with low resolution (0) first.
