@@ -23,7 +23,7 @@ One example would be:
 ./bin/xcombine_vol_data all vs ./DATABASES_MPI ./DATABASES_MPI output_dir 0 1
 ```
 
-Notice if you set the resolution to hign(1), the output file size would be very large. Please start with low resolution first.
+Notice if you set the resolution to high (1), the output file size would be very large. Please start with low resolution (0) first.
 
 Then you should be able to check the outputfile in the `output_dir` specified in your running command. The outputfile should have suffix "*.vtk".
 
